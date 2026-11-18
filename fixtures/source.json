@@ -33,6 +33,38 @@
           }
         }
       ]
+    },
+    {
+      "method": "GET",
+      "path": "/observations/o1",
+      "responses": [
+        {
+          "body": {
+            "id": "o1",
+            "channel": "c1",
+            "revision": 1,
+            "time": 0,
+            "value": 12,
+            "quality": "good"
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/observations/o2",
+      "responses": [
+        {
+          "body": {
+            "id": "o2",
+            "channel": "c1",
+            "revision": 1,
+            "time": 30,
+            "value": 16,
+            "quality": "good"
+          }
+        }
+      ]
     }
   ]
 }
