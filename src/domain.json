@@ -1,0 +1,11 @@
+{
+  "initial": {
+    "requests": [],
+    "observations": {},
+    "coverage": {}
+  },
+  "route": {
+    "method": "GET",
+    "path": "/series/c1"
+  }
+}

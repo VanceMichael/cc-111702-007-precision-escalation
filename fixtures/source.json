@@ -1,0 +1,38 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/series/c1",
+      "responses": [
+        {
+          "body": {
+            "channel": "c1",
+            "actualResolution": "raw",
+            "coverage": {
+              "from": 0,
+              "to": 60
+            },
+            "samples": [
+              {
+                "id": "o1",
+                "time": 0,
+                "value": 12,
+                "quality": "good",
+                "revision": 1
+              },
+              {
+                "id": "o2",
+                "time": 30,
+                "value": 16,
+                "quality": "good",
+                "revision": 1
+              }
+            ],
+            "buckets": [],
+            "retention": 120
+          }
+        }
+      ]
+    }
+  ]
+}
